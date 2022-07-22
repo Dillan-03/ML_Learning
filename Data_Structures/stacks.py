@@ -33,4 +33,7 @@ def efficient_way():
 '''The reason behind using both approaches is different. With using a list, if the block of allocated memory is full, and after pushing a item into the stack, the computer will need to get another block, which will take longer for ".append()"
 Whereas with a "deque", it uses a linked list data structure. Each entry of the item is stored in its own memory block, and has a reference pointing to the next item in the list. Each entry has references pointing to the previous and next item in the linked list.
 '''
- 
+
+
+common_way()
+efficient_way() 
