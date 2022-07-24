@@ -19,7 +19,7 @@ public class LinkedList{
             current = current.next;
         }
 
-        current.next = new Node(data)
+        current.next = new Node(data);
     }
     public void prepend(int data){
         Node newHead = new Node(data);
@@ -34,7 +34,7 @@ public class LinkedList{
             head = head.next;
             return;
         }
-        
+
         Node current = head;
 
         while (current.next != null){
